@@ -1,0 +1,125 @@
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #263746;
+    background-color: #F4F7FA;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #102A43;
+}
+
+.navbar-brand {
+    color: #FFFFFF !important;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    margin-left: 8px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #E7A83E !important;
+}
+
+/* Hero section */
+.hero-section {
+    background: linear-gradient(135deg, #102A43, #247BA0);
+    color: white;
+    padding: 110px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.3rem;
+}
+
+/* Sections */
+.section-padding {
+    padding: 65px 0;
+}
+
+.section-description {
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #102A43;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #102A43;
+    border-color: #102A43;
+}
+
+.btn-primary:hover {
+    background-color: #247BA0;
+    border-color: #247BA0;
+}
+
+/* Footer */
+footer {
+    background-color: #102A43;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+/* Forms */
+form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form-control,
+.form-select {
+    padding: 12px;
+}
+
+/* Accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #E7A83E;
+    outline-offset: 3px;
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 75px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .section-padding {
+        padding: 45px 0;
+    }
+}
